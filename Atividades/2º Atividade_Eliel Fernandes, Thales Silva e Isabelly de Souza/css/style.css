@@ -1,0 +1,76 @@
+* {
+    font-family: ;
+    color: white;
+}
+
+.cor {
+    background-color: rgb(0, 0, 0);
+}
+
+
+.titulo {
+    text-align: center;
+    font-size: 40pt;
+}
+
+.rgb {
+    background-color: rgb(56, 125, 44);
+}
+
+.hsl {
+    background-color: hsl(123, 50%, 50%);
+}
+
+.hexa {
+    background-color: #0000ff;
+}
+
+.rgba {
+    color: rgba(255, 215, 0, 0.5);
+}
+
+.fontRefe{ 
+    color: white;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 800px;
+    border: 2px solid white;
+}
+
+.titulo{
+    text-align:center;
+    color: white;
+}
+.table1{
+    margin: auto;
+    border: 1px solid ;
+    border-color: purple;
+    border-radius: 30px;
+    border-width: 5px;
+    font-size: 20pt;
+    color: white;
+}
+.table2{
+    margin: auto;
+    border: 1px solid ;
+    border-color: blue;
+    border-width: 5px;
+    font-size:20pt;
+    color: white;
+}
+.table3{
+    margin: auto;
+    border: 1px solid ;
+    border-color: red;
+    border-width: 5px;
+    border-style: double;
+    border-block-start-style: dashed;
+    border-block-end-style: dotted;
+    font-size: 20pt;
+    color: white;
+}
+.cbutton{
+    margin: auto 25%;
+    
+}

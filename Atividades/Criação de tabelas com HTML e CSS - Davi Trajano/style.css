@@ -1,0 +1,32 @@
+
+body{
+    background-color: rgb(0, 55, 55);
+}
+#display{
+    display: flex;
+    flex-direction: row;
+}
+.table1{
+    width: 20%;
+    font-size: 0.9em;
+    background-color: bisque;
+    border-collapse: collapse;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+}
+.table2{
+    height: 30px;
+    width: 30.9%;
+    font-size: 0.9em;
+    background-color: bisque;
+    border-collapse: collapse;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+}
+.bord{
+    border: 5px solid rgb(0, 0, 150);
+}
+img{
+    width: 35mm;
+    height: 40mm;
+}
