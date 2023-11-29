@@ -4,6 +4,7 @@ body{
 }
 
 div{
+    position: relative;
     background-color: purple;
     width: 100px;
     height: 100px;
