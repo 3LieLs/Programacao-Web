@@ -1,3 +1,5 @@
+//
+
 var aumentar = false
 var boxVal = window.document.querySelector('div#box')
 var runnerVal = window.document.querySelector('div#runner')
@@ -22,7 +24,7 @@ function changeColor() {
 function dislocar() {
     let aleatorio1, aleatorio2
 
-    aleatorio1 = Math.floor(Math.random(0) * 1000);
+    aleatorio1 = Math.floor(Math.random(0) * 1000); 
     aleatorio2 = Math.floor(Math.random(0) * 500);
 
     runner.style = `left: ${aleatorio1}px; top: ${aleatorio2}px;`
@@ -31,8 +33,11 @@ function dislocar() {
 function aumentarDiminuir() {
     let altura, comprimento
 
-    altura = Math.floor(Math.random(50) * 200);
-    comprimento = Math.floor(Math.random(50) * 200);
+    altura = Math.floor(Math.random(0) * 200);
+    comprimento = Math.floor(Math.random(0) * 200);
+
+    comprimento = comprimento + 50
+    altura = altura + 50
 
     tamanho.style = `width: ${comprimento}px; height: ${altura}px;`
 }
